@@ -29,8 +29,7 @@ public class CandidateCode {
     }
 
     private int numberOfChildrenThatCanBeFedFromTheChocolate(Chocolate chocolate){
-        int numberOfChildren = 0;
-        int chocolateBlocksToExhaust = chocolate.getNumberOfChocolateBlocks();
+   
         while (chocolateBlocksToExhaust!=0){
             int chocolateBlocksThatCanBeExhausted = chocolate.numberOfBlocksOfTheLargestSquareThatCanbeFormedFromTheChocolate();
             chocolateBlocksToExhaust=chocolateBlocksToExhaust-chocolateBlocksThatCanBeExhausted;
@@ -73,5 +72,6 @@ class Chocolate {
         return this.length*this.width;
     }
 
-    //HashCode and Equals Methods here      
-}
+    //HashCode and Equals Methods here 
+    system.out.println();
+    hvbugxdyrfz
